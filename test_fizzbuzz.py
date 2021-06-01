@@ -7,3 +7,6 @@ import pytest
 
 def test_fizzbuzz1():
     assert fizzbuzz.printNum(1) == 1
+    
+def test_fizzbuzz2():
+    assert fizzbuzz.printNum(9) == "fizz"
