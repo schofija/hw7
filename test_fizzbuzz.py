@@ -13,3 +13,6 @@ def test_fizzbuzz2():
     
 def test_fizzbuzz3():
     assert fizzbuzz.printNum(10) == "buzz"
+    
+def test_fizzbuzz4():
+    assert fizzbuzz.printNum(15) == "fizzbuzz"
