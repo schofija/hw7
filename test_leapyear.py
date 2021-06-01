@@ -13,3 +13,6 @@ def test_leapyear2():
     
 def test_leapyear3():
     assert leapyear.check(1900) == 0
+    
+def test_leapyear4():
+    assert leapyear.check(1600) == 1
