@@ -6,4 +6,4 @@ import pytest
 #pytest functions below
 
 def test_fizzbuzz1():
-    assert fizzbuzz.print(1) == 1
+    assert fizzbuzz.printNum(1) == 1
